@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: arial;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Navbar */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul {
+  background: #10439F;
+  padding: 0 20px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li:hover {
+  background: #91a3b0;
+}
+
+nav ul li:hover a {
+  color: #000;
+}
+
+nav ul li a {
+  display: block;
+  padding: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* main body */
+.container {
+  margin-top: -4px;
+  display: flex;
+  /* menggunakan flexbox untuk layout */
+}
+
+.left-content,
+.right-content {
+  flex: 1;
+  /* membagi ruang secara fleksibel */
+  padding: 20px;
+}
+
+.left-content {
+  background-color: #387ADF;
+}
+
+.right-content {
+  background-color: #387ADF;
+}
+
+#photo {
+  width: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2,
+p {
+  color: #fff;
+}
+
+#side {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th,
+#th {
+  background-color: #10439F;
+  color: #fff;
+}
+
+/* footer */
+footer {
+  background-color: #10439F;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.containerFooter {
+  width: 100%;
+  margin: 0 auto;
+}
